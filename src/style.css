@@ -38,6 +38,36 @@ form {
   width: 100px;
 }
 
+main {
+  padding: 30px 0;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-data-city {
+  font-size: 38px;
+}
+
+.weather-data-details {
+  color: rgba(39, 33, 66, 0.4);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+strong {
+  color: #f65282;
+}
+
 footer {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  padding: 10px;
   text-align: center;
+}
+
+a {
+  color: #885df1;
 }
