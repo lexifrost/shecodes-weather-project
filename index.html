@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
-    <title>Lexi Weather</title>
+    <title>Lexi Weather App</title>
   </head>
   <body>
     <div class="weather-app">
@@ -21,7 +21,7 @@
             type="search"
             placeholder="Enter a city.."
             required
-            class="search-bar"
+            class="search-field"
           />
           <input type="submit" value="Search" class="submit-button" />
         </form>
@@ -37,7 +37,11 @@
               Humidity: <strong>96%</strong>, Wind: <strong>2.06km/h</strong>
             </p>
           </div>
-          <div>🌥️ 12°C</div>
+          <div class="temperature-container">
+            <div class="temperature-icon">🌥️</div>
+            <div class="temperature-value">12</div>
+            <div class="temperature-unit">°C</div>
+          </div>
         </div>
       </main>
 
