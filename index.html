@@ -13,15 +13,17 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>Lexi Weather App</title>
   </head>
+
   <body>
     <div class="weather-app">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             required
-            class="search-field"
+            class="search-input"
+            id="search-input"
           />
           <input type="submit" value="Search" class="submit-button" />
         </form>
@@ -30,7 +32,7 @@
       <main>
         <div class="weather-data">
           <div>
-            <h1 class="weather-data-city">Berlin</h1>
+            <h1 class="weather-data-city" id="weather-data-city">Berlin</h1>
             <p class="weather-data-details">
               Monday 10:47, overcast clouds
               <br />
@@ -60,5 +62,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
