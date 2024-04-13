@@ -74,18 +74,20 @@ strong {
 
 .temperature-icon {
   font-size: 48px;
-  margin-top: 20px;
+  width: 88px;
+  height: 88px;
 }
 
 .temperature-value {
   font-size: 88px;
   font-weight: bold;
+  line-height: 88px;
   margin-left: 10px;
 }
 
 .temperature-unit {
   font-size: 28px;
-  margin-top: 14px;
+  margin-top: 6px;
 }
 
 footer {
